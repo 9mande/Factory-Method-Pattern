@@ -1,5 +1,7 @@
 /* Product Factory class
  * Overrides createProduct(model) method which returns new instances.
+ * Uses only one factory instance, no more needed.
+ *  -> related to singleton pattern
  */
 
 public class ProductFactory extends Factory {
